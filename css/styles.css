@@ -244,9 +244,6 @@ width: 270px;
 .employees-child:not(:nth-child(4n)) {
 margin-right: 30px;
 flex-basis: calc(100% - 120px) / 4;
-box-shadow: box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
- 0px 1px 1px rgba(0, 0, 0, 0.14), 
- 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .employees-content-wrapper{
@@ -255,6 +252,9 @@ border-bottom: 1px solid #E5E5E5;
 border-radius: 4px;
 padding-top: 30px;
 padding-bottom: 30px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+ 0px 1px 1px rgba(0, 0, 0, 0.14), 
+ 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team {
